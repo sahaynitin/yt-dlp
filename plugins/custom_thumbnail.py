@@ -9,9 +9,6 @@ from pyrogram import Client, filters
 
 from translation import Translation
 
-import database.database as sql
-from database.database import *
-
 
 @Client.on_message(filters.private & filters.photo)
 async def save_photo(bot, update):
