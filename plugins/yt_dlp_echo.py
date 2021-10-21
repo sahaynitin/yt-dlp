@@ -289,7 +289,7 @@ async def echo(bot, update):
             if mes != None:
                 m = await bot.get_messages(update.chat.id, mes.msg_id)
                 await m.download(file_name=thumb_image_path)
-                thumb_image_path = thumb_image_path
+                thumb_image_path =thumb_image_path
             else:
                 if "thumbnail" in response_json:
                     if response_json["thumbnail"] is not None:
