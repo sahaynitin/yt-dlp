@@ -105,7 +105,7 @@ async def echo(bot, update):
         if file_name is not None:
             file_name = file_name.strip()
         if yt_dlp_username is not None:
-            yt_dlp_username = youtube_dl_username.strip()
+            yt_dlp_username = yt_dlp_username.strip()
         if yt_dlp_password is not None:
             yt_dlp_password = yt_dlp_password.strip()
         logger.info(url)
